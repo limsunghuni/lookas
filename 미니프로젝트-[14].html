@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>포토 갤러리</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #eeeeee;
+            font-family: "돋움";
+            font-size: 12px;
+            color: #666666;
+        }
+        li{
+            list-style-type: none;
+        }
+        .clear{
+            clear: both;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">PHOTO GALLERY</div>
+            <div id="top_menu">로그인 | 회원가입 | 방명록</div>
+        </div>
+            <div id="left">
+                <h2>포토갤러리</h2>
+                <ul>
+                    <li class="submenu">+ 풍경</li>
+                    <li class="submenu">+ 일상</li>
+                    <li class="submenu">+ 인물</li>
+                    <li class="submenu">+ 가족</li>
+                </ul>
+            </div><!--end of left-->
+            <div id="right">
+                <div id="main_title">
+                풍경 사진
+                </div>
+                <img id="main_img" src="b-1.jpg">
+                <div id="thumnail">
+                <img id="move_left" src="bt_move_left.gif">
+                    <ul id="photos">
+                        <li><a href="#"><img src="s-1.jpg"></a></li>
+                        <li><a href="#"><img src="s-2.jpg"></a></li>
+                        <li><a href="#"><img src="s-3.jpg"></a></li>
+                        <li><a href="#"><img src="s-4.jpg"></a></li>
+                        <li><a href="#"><img src="s-5.jpg"></a></li>
+                    </ul>
+                    <img id="move_right" src="bt_move_right.gif">
+                </div>
+            </div><!--end of right-->
+    </body>
+</html>
